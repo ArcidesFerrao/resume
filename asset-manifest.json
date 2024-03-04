@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/github.com/resume/static/css/main.3d97fbb3.css",
-    "main.js": "/github.com/resume/static/js/main.a15b8ef9.js",
-    "static/js/453.f19e9853.chunk.js": "/github.com/resume/static/js/453.f19e9853.chunk.js",
-    "static/media/UniversLTStd-Bold.otf": "/github.com/resume/static/media/UniversLTStd-Bold.34d755ac0774d4908a2b.otf",
-    "static/media/UniversLTStd.otf": "/github.com/resume/static/media/UniversLTStd.5e1f132656185ec403eb.otf",
-    "static/media/Univers-light-normal.ttf": "/github.com/resume/static/media/Univers-light-normal.3093d3b72a1e96d61f36.ttf",
-    "index.html": "/github.com/resume/index.html",
-    "main.3d97fbb3.css.map": "/github.com/resume/static/css/main.3d97fbb3.css.map",
-    "main.a15b8ef9.js.map": "/github.com/resume/static/js/main.a15b8ef9.js.map",
-    "453.f19e9853.chunk.js.map": "/github.com/resume/static/js/453.f19e9853.chunk.js.map"
+    "main.css": "/resume/static/css/main.bf80cbf7.css",
+    "main.js": "/resume/static/js/main.02e95de3.js",
+    "static/js/453.f19e9853.chunk.js": "/resume/static/js/453.f19e9853.chunk.js",
+    "static/media/UniversLTStd-Bold.otf": "/resume/static/media/UniversLTStd-Bold.34d755ac0774d4908a2b.otf",
+    "static/media/UniversLTStd.otf": "/resume/static/media/UniversLTStd.5e1f132656185ec403eb.otf",
+    "static/media/Univers-light-normal.ttf": "/resume/static/media/Univers-light-normal.3093d3b72a1e96d61f36.ttf",
+    "index.html": "/resume/index.html",
+    "main.bf80cbf7.css.map": "/resume/static/css/main.bf80cbf7.css.map",
+    "main.02e95de3.js.map": "/resume/static/js/main.02e95de3.js.map",
+    "453.f19e9853.chunk.js.map": "/resume/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d97fbb3.css",
-    "static/js/main.a15b8ef9.js"
+    "static/css/main.bf80cbf7.css",
+    "static/js/main.02e95de3.js"
   ]
 }
