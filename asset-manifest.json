@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ArcidesFerrao/resume.git/static/css/main.63da189d.css",
+    "main.js": "/ArcidesFerrao/resume.git/static/js/main.7fac1faf.js",
+    "static/js/453.f19e9853.chunk.js": "/ArcidesFerrao/resume.git/static/js/453.f19e9853.chunk.js",
+    "static/media/UniversLTStd-Bold.otf": "/ArcidesFerrao/resume.git/static/media/UniversLTStd-Bold.34d755ac0774d4908a2b.otf",
+    "static/media/UniversLTStd.otf": "/ArcidesFerrao/resume.git/static/media/UniversLTStd.5e1f132656185ec403eb.otf",
+    "static/media/Univers-light-normal.ttf": "/ArcidesFerrao/resume.git/static/media/Univers-light-normal.3093d3b72a1e96d61f36.ttf",
+    "index.html": "/ArcidesFerrao/resume.git/index.html",
+    "main.63da189d.css.map": "/ArcidesFerrao/resume.git/static/css/main.63da189d.css.map",
+    "main.7fac1faf.js.map": "/ArcidesFerrao/resume.git/static/js/main.7fac1faf.js.map",
+    "453.f19e9853.chunk.js.map": "/ArcidesFerrao/resume.git/static/js/453.f19e9853.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63da189d.css",
+    "static/js/main.7fac1faf.js"
+  ]
+}
