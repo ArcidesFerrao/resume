@@ -1,0 +1,24 @@
+.cvHeader {
+    grid-area: head;
+
+    display: grid;
+    grid-template-rows: 60% 40%;
+    gap: 20px;
+}
+
+h1 {
+    font-family: "UniversBold";
+    font-size: 64px;
+    font-weight: 700;
+    color: #f4f5fa;
+    letter-spacing: 0.02rem;
+    margin: 10px 0;
+}
+
+.cvHeader h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    /* padding-top: 5px; */
+
+    letter-spacing: 0.1rem;
+}

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "UniversBold";
+    src: url("./fonts/Univers/UniversLTStd-Bold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "UniversLight";
+    src: url("./fonts/Univers/Univers-light-normal.ttf");
+    /* font-weight: 400; */
+}
+@font-face {
+    font-family: "UniversBody";
+    src: url("./fonts/Univers/UniversLTStd.otf");
+    /* font-weight: 400; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Kode+Mono:wght@400..700&family=Montserrat:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+.resume {
+    width: 816px;
+    height: 1056px;
+    margin: 100px 20px;
+    padding: 60px 50px; 
+
+    color: #d0d0d0;
+    background-color: #262626;
+    border: solid 2px #666666;
+    border-radius: 5px;
+    
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 35% 65%;
+    /* grid-auto-rows: auto; */
+    grid-template-rows: 26% 30% 26% 18%;
+    grid-template-areas: "head head"
+        "contact experience"
+        "objective education"
+        "language skill";
+}
+
+
+
+h2 {
+    font-family: "UniversBody";
+    font-size: 28px;
+    font-weight: 600;
+    color: #d0d0d0;
+}
+h3 {
+    text-transform: uppercase;
+    font-family: "UniversBody";
+    font-size: 16px;
+    font-weight: 200;
+    color: #d0d0d0;
+}
+h4 {
+    font-family: "UniversBody";
+    font-size: medium;
+    letter-spacing: 0.05rem;
+    color: rgba(215, 215, 215, 0.6);
+    font-weight: 200;
+}
+
+button {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    padding: 5px 10px;
+    width: 88px;
+
+    font-size: 24px;
+    color: #d0d0d0;
+
+    border: none;
+    border-radius: 3px 0 0 3px;
+    border-left: solid 2px #666666;
+    border-bottom: solid 2px #666666;
+    border-top: solid 2px #666666;
+    
+    background-color: #262626;
+}
+
+.cvHeader:hover,
+.cvContact:hover,
+.cvExperience:hover,
+.cvObjective:hover,
+.cvEducation:hover,
+.cvLingo:hover {
+    background-color: rgba(102, 102, 102, 0.08);
+    border-radius: 5px;
+}
+
+.cvContact:hover,
+.cvObjective:hover,
+.cvLingo:hover {
+    box-shadow: rgba(0, 0, 0, .4) -5px -5px 150px 3px;
+    transform: translate3d(0, 2px, 5px);
+    padding: 10px;
+}
+
+.cvExperience:hover,
+.cvEducation:hover {
+    box-shadow: rgba(0, 0, 0, .4) 5px 5px 200px 5px;
+    transform: translate3d(4px, 2px, 0);
+    padding: 10px;
+}
+.cvHeader:hover {
+    box-shadow: rgba(0, 0, 0, .4) 5px 5px 200px 40px;
+    transform: translate3d(4px, 2px, 0);
+}
+
+.cvHeader,
+.cvContact,
+.cvExperience,
+.cvObjective,
+.cvEducation,
+.cvLingo {
+    transition: 0.3s ease-in-out;
+}
