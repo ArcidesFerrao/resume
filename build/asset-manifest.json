@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.bf80cbf7.css",
-    "main.js": "/resume/static/js/main.02e95de3.js",
+    "main.css": "/resume/static/css/main.09dc9baf.css",
+    "main.js": "/resume/static/js/main.a9ce0c74.js",
     "static/js/453.f19e9853.chunk.js": "/resume/static/js/453.f19e9853.chunk.js",
     "static/media/UniversLTStd-Bold.otf": "/resume/static/media/UniversLTStd-Bold.34d755ac0774d4908a2b.otf",
     "static/media/UniversLTStd.otf": "/resume/static/media/UniversLTStd.5e1f132656185ec403eb.otf",
     "static/media/Univers-light-normal.ttf": "/resume/static/media/Univers-light-normal.3093d3b72a1e96d61f36.ttf",
+    "static/media/python-icon.png": "/resume/static/media/python-icon.a2a187581665b5b8fac9.png",
+    "static/media/react-icon.png": "/resume/static/media/react-icon.39aab2802f1910cb4bcd.png",
+    "static/media/github-512.webp": "/resume/static/media/github-512.76c03b2051c0b109abc4.webp",
     "index.html": "/resume/index.html",
-    "main.bf80cbf7.css.map": "/resume/static/css/main.bf80cbf7.css.map",
-    "main.02e95de3.js.map": "/resume/static/js/main.02e95de3.js.map",
+    "main.09dc9baf.css.map": "/resume/static/css/main.09dc9baf.css.map",
+    "main.a9ce0c74.js.map": "/resume/static/js/main.a9ce0c74.js.map",
     "453.f19e9853.chunk.js.map": "/resume/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf80cbf7.css",
-    "static/js/main.02e95de3.js"
+    "static/css/main.09dc9baf.css",
+    "static/js/main.a9ce0c74.js"
   ]
 }
