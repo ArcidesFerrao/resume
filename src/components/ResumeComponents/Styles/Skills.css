@@ -1,0 +1,54 @@
+.cvSkills {
+    grid-area: skill;
+    overflow: hidden;
+    border-top: solid #d0d0d0 5px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "sk pr";
+    padding: 10px 0;
+    gap: 5px;
+}
+
+.cvSk {
+    grid-area: sk;
+
+    display: grid;
+    grid-template-rows: 20% 70%;
+    grid-template-areas: "skT"
+     "skL";
+
+
+}
+
+.skList {
+    grid-area: skL;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+    display: grid;
+
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+.sk {
+    padding: 5px;
+
+}
+.sk img {
+    height: 45px;
+    background: none;
+    
+    filter: grayscale(80%);
+}
+
+.sk span {
+    font-size: 60px;
+}
+.cvPr {
+    grid-area: pr;
+}
+
+

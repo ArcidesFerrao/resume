@@ -6,6 +6,7 @@ import Header from './ResumeComponents/Header';
 import Education from './ResumeComponents/Education';
 import Lingo from './ResumeComponents/Lingo';
 import Experience from './ResumeComponents/Experience';
+import Skills from './ResumeComponents/Skills';
 
 export default function Resume() {
   
@@ -18,7 +19,8 @@ export default function Resume() {
         <Objective />
         <Education />
         <Lingo />
-        <button className='editButton'>Edit</button>
+        <Skills />
+        {/* <button className='editButton'>Edit</button> */}
     </div>
   )
 }

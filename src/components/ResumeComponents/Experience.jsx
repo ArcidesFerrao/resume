@@ -17,7 +17,7 @@ export default function Experience() {
                 </h3>
             </div>
             <div className="expDescription">
-                <h4>At the internship the main task was problem solving, taking care of every technological detais that needs to be addressed</h4>
+                <h4>At the internship the main task was problem solving, taking care of every problem that witholds the progress on the goals that have to be reached daily.</h4>
             </div>
 
         </div>

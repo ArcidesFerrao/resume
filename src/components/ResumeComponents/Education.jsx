@@ -8,15 +8,15 @@ export default function Education() {
             <h2>Education</h2>
         </div>
         <div className="cvDetail">
-            <h3>ITC - Instituto de Transportes e Comunicacoes</h3>
+            <h3>ITC - Instituto de Transportes e Comunicações</h3>
         </div>
         <div className="detailDate">
             <h3 className="cvDate">
-                2011-2014
+                2009-2012
             </h3>
         </div>
         <div className="edDegree">
-            <h4>Tecnico de Sistemas Informaticos</h4>
+            <h4>Técnico de Sistemas Informáticos</h4>
         </div>
 
     </div>

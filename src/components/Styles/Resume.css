@@ -88,9 +88,11 @@ button {
 .cvExperience:hover,
 .cvObjective:hover,
 .cvEducation:hover,
-.cvLingo:hover {
+.cvLingo:hover,
+.cvSkills:hover {
     background-color: rgba(102, 102, 102, 0.08);
-    border-radius: 5px;
+    border-top: solid 10px;
+    
 }
 
 .cvContact:hover,
@@ -101,6 +103,7 @@ button {
     padding: 10px;
 }
 
+.cvSkills:hover,
 .cvExperience:hover,
 .cvEducation:hover {
     box-shadow: rgba(0, 0, 0, .4) 5px 5px 200px 5px;
@@ -110,8 +113,11 @@ button {
 .cvHeader:hover {
     box-shadow: rgba(0, 0, 0, .4) 5px 5px 200px 40px;
     transform: translate3d(4px, 2px, 0);
+    border-radius: 0 0 10px 10px;
+    padding: 5px;
 }
 
+.cvSkills,
 .cvHeader,
 .cvContact,
 .cvExperience,
