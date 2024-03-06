@@ -12,8 +12,12 @@ export default function Contact() {
         <div className="contDescription">
             <h4>Maputo, Mozambique</h4>
             <h4>+258 85 274 0554</h4>
-            <h4>cidesferrao@gmail.com</h4>
-            <h4>github.com/ArcidesFerrao</h4>
+            <h4>
+              <a href="mailto:cidesferrao@gmail.com" className='emailLink' title='Send me an email' >cidesferrao@gmail.com</a>
+            </h4>
+            <h4>
+              <a href="https://github.com/ArcidesFerrao" target='_blank' title='Check my gitHub repositories...'>github.com/ArcidesFerrao</a>
+            </h4>
         </div>
     </div>
   )

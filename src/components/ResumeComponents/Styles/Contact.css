@@ -27,3 +27,14 @@
     font-size: 14px;
 }
 
+a {
+    text-emphasis: none;
+    text-decoration: none;
+    font-style: normal;
+    font-family: "UniversBody";
+    color: rgba(215, 215, 215, 0.6);
+}
+ /* .gitLink {
+    padding-top: 5px;
+ } */
+
