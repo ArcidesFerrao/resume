@@ -4,3 +4,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+  .body {
+      width: 100vh;
+      height: max-content;
+      background-color: aqua;
+  }
+}

@@ -13,11 +13,11 @@ export default function Experience() {
             </div>
             <div className="detailDate">
                 <h3 className="cvDate">
-                    2014-2015
+                    2012-2013
                 </h3>
             </div>
             <div className="expDescription">
-                <h4>At the internship the main task was problem solving, taking care of every problem that witholds the progress on the goals that have to be reached daily.</h4>
+                <h4>At the internship the main task was problem solving, taking care of every problem that witholds the progress on the goals that had to be reached daily.</h4>
             </div>
 
         </div>
