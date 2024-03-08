@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.09dc9baf.css",
-    "main.js": "/resume/static/js/main.a9ce0c74.js",
+    "main.css": "/resume/static/css/main.3c842ed3.css",
+    "main.js": "/resume/static/js/main.acde6f4b.js",
     "static/js/453.f19e9853.chunk.js": "/resume/static/js/453.f19e9853.chunk.js",
     "static/media/UniversLTStd-Bold.otf": "/resume/static/media/UniversLTStd-Bold.34d755ac0774d4908a2b.otf",
     "static/media/UniversLTStd.otf": "/resume/static/media/UniversLTStd.5e1f132656185ec403eb.otf",
@@ -10,12 +10,12 @@
     "static/media/react-icon.png": "/resume/static/media/react-icon.39aab2802f1910cb4bcd.png",
     "static/media/github-512.webp": "/resume/static/media/github-512.76c03b2051c0b109abc4.webp",
     "index.html": "/resume/index.html",
-    "main.09dc9baf.css.map": "/resume/static/css/main.09dc9baf.css.map",
-    "main.a9ce0c74.js.map": "/resume/static/js/main.a9ce0c74.js.map",
+    "main.3c842ed3.css.map": "/resume/static/css/main.3c842ed3.css.map",
+    "main.acde6f4b.js.map": "/resume/static/js/main.acde6f4b.js.map",
     "453.f19e9853.chunk.js.map": "/resume/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09dc9baf.css",
-    "static/js/main.a9ce0c74.js"
+    "static/css/main.3c842ed3.css",
+    "static/js/main.acde6f4b.js"
   ]
 }
