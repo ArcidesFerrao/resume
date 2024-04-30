@@ -9,7 +9,7 @@
         "description description"
         ;
     padding: 10px 0;
-    gap: 5px;
+    gap: 5px 0;
 }
 
 .expTitle {

@@ -1,3 +1,7 @@
+:root {
+    --show-detail: flex;
+    --hide-detail: none;
+}
 .cvSkills {
     grid-area: skill;
     overflow: hidden;
@@ -6,11 +10,12 @@
     grid-template-columns: 60% 40%;
     grid-template-areas: "sk pr";
     padding: 10px 0;
-    gap: 5px;
+    gap: 5px 0;
 }
 
 .cvSk {
     grid-area: sk;
+    transition: all 1s ease;
 
     display: grid;
     grid-template-rows: 20% 70%;
@@ -35,6 +40,7 @@
 
 .sk {
     padding: 5px 0;
+    cursor: pointer;
 
 }
 .sk img {
@@ -47,8 +53,28 @@
 .sk span {
     font-size: 60px;
 }
-.cvPr {
+
+
+.cvDetailSkills {
     grid-area: pr;
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
+.cvDetailSkills h5 {
+    font-size: x-small;
+    /* display: v; */
+}
+/* 
+.Js:hover \ .cvDetailSkills {
+    display: block;
+} */
 
+
+
+.cvSk:hover + .cvDetailSkills {
+    display: flex;
+}

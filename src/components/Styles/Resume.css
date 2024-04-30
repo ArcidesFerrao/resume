@@ -17,6 +17,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Kode+Mono:wght@400..700&family=Montserrat:wght@100..900&family=Quicksand:wght@300..700&display=swap');
 
 
+@media screen and (max-width: 900px) { 
+
+    h1  {
+        font-weight: 500 !important;
+        font-size: xx-large !important;
+    }
+    .headerOccupation h2 {
+        font-weight: 300 !important;
+        font-size: large !important;
+    }
+
+    .cvExperience {
+        height: max-content;
+    }
+
+    .resume {
+        width: 408px !important;
+        height: max-content !important;
+        grid-template-columns: none !important;
+        grid-template-rows: none !important;
+        row-gap: 2rem;
+        grid-template-areas: "head"
+        "contact"
+        "objective"
+        "experience"
+        "education"
+        "language"
+        "skill" !important;
+
+    }
+
+    section {
+        margin-right: 0 !important;
+        border-radius: 0 0 10px 10px;
+        transition: all 1s ease!important;
+    }
+
+    .cvContact {
+        justify-content: space-between;
+        grid-template-rows: none !important;
+    }
+
+    .cvSkills {
+        grid-template-columns: none !important;
+        grid-template-areas: "sk"
+            "pr" !important;
+    }
+}
+
 
 .resume {
     width: 816px;
@@ -36,7 +85,7 @@
     display: grid;
     grid-template-columns: 35% 65%;
     /* grid-auto-rows: auto; */
-    grid-template-rows: 26% 30% 26% 18%;
+    grid-template-rows: 26% 30% 22% 22%;
     grid-template-areas: "head head"
         "contact experience"
         "objective education"
@@ -58,7 +107,7 @@ h3 {
     font-weight: 200;
     color: #d0d0d0;
 }
-h4 {
+h4, li {
     font-family: "UniversBody";
     font-size: medium;
     letter-spacing: 0.05rem;
@@ -66,6 +115,24 @@ h4 {
     font-weight: 200;
 }
 
+h5 {
+    font-family: "UniversBody";
+    font-weight: 200;
+    letter-spacing: 0.05rem;
+    color: rgba(215, 215, 215, 0.6);
+    
+}
+
+li {
+    font-size: small;
+}
+ul {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    padding: 8px;
+    list-style-type: none;
+}
 button {
     position: absolute;
     bottom: 40px;

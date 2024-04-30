@@ -6,14 +6,13 @@ import './Styles/Header.css';
 export default function Header() {
   
   return (
-    <div className="cvHeader">
+    <section className="cvHeader">
       <div className="headerName">
-        <h1>Arcides Henriques Ferrao</h1>
+        <h1>Arcides Henriques Ferrão</h1>
       </div> 
       <div className="headerOccupation">
-        <h2>Front-End Developer</h2>
-
+        <h2>Frontend Developer</h2>
       </div>
-    </div>
+    </section>
   )
 }

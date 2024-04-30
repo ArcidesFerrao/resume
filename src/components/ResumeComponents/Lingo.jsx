@@ -5,7 +5,7 @@ export default function Lingo() {
 
 
   return (
-    <div className="cvLingo">
+    <section className="cvLingo">
         <div className="lingTitle">
             <h2>Language</h2>
         </div>
@@ -17,6 +17,6 @@ export default function Lingo() {
             <h4>Native</h4>
             <h4>Fluent</h4>
         </div>
-    </div>
+    </section>
   )
 }

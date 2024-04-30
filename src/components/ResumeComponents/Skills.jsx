@@ -6,7 +6,7 @@ import gitIcon from './Styles/icons/github-512.webp';
 
 export default function Skills() {
   return (
-    <div className='cvSkills'>
+    <section className='cvSkills'>
         <div className="cvSk">
             <h2>Skills</h2>
             <div className="skList">
@@ -25,6 +25,7 @@ export default function Skills() {
                         javascript
                     </span>
                 </div>
+
                 <div className="sk React">
                     <img src={reactIcon} alt="react" title="react" />
                 </div>
@@ -37,12 +38,13 @@ export default function Skills() {
             </div>
         </div>
 
-        {/* <div className="cvPr">
-            <h2>Projects</h2>
-            <div className="prList">
+        <div className="cvDetailSkills">
+            {/* <div className="prList"> */}
+                <h5>Proficiency in frontend technologies (html, css, javascript)</h5>
+                <h5>Familiarity with responsive design and user experience principles</h5>
 
-            </div>
-        </div> */}
-    </div>
+            {/* </div> */}
+        </div>
+    </section>
   )
 }

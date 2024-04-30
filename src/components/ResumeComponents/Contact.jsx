@@ -5,7 +5,7 @@ export default function Contact() {
 
 
   return (
-    <div className="cvContact">
+    <section className="cvContact">
         <div className="conTitle">
             <h2>Contact</h2>
         </div>
@@ -19,6 +19,6 @@ export default function Contact() {
               <a href="https://github.com/ArcidesFerrao" target='_blank' title='Check my gitHub repositories...'>github.com/ArcidesFerrao</a>
             </h4>
         </div>
-    </div>
+    </section>
   )
 }
