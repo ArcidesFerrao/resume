@@ -1,14 +1,31 @@
+:root {
+  --background-dark: #141414;
+  --border-dark: #666666;
+  --page-dark: #262626;
+  --text-dark: rgba(215, 215, 215, 0.6);
+  --icon-dark: #d0d0d0;
+  --title-dark: #d0d0d0;
+  --background-section: rgba(102, 102, 102, 0.08);
+  --shadow-dark: rgba(0, 0, 0, .4);
+  --link-color: rgba(215, 215, 215, 0.8);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-section: rgba(0, 0, 0, 0.1);
+    --page-dark: #f4f5fa;
+    --background-dark: #bdbdbd;
+    --text-dark: #141414;
+    --title-dark: #262626;
+    --icon-dark: #666666;
+    --shadow-dark: rgba(255, 255, 255, .2);
+    --link-color: rgba(38, 38, 38, 0.8);
+  }
+}
+
 * {
   margin: 0;
 }
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-@media screen and (max-width: 768px) {
-  .body {
-      width: 100vh;
-      height: max-content;
-      background-color: aqua;
-  }
 }

@@ -1,6 +1,6 @@
 .App {
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: var(--background-dark);
   min-height: 100vh;
   
   display: flex;

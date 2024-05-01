@@ -32,9 +32,13 @@ a {
     text-decoration: none;
     font-style: normal;
     font-family: "UniversBody";
-    color: rgba(215, 215, 215, 0.6);
-}
- /* .gitLink {
-    padding-top: 5px;
- } */
+    color: var(--text-dark);
 
+    transition: all 500ms ease-out;
+}
+
+a:hover {
+    color: var(--link-color);
+    font-style: italic;
+    box-shadow: var(--background-dark) 50px 2rem 80px 16px;
+}

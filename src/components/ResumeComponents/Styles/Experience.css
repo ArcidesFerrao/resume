@@ -1,6 +1,6 @@
 .cvExperience {
     grid-area: experience;
-    border-top: solid #d0d0d0 5px;
+    border-top: solid 5px var(--title-dark);
     display: grid;
     grid-template-rows: 18% 12% 70% ;
     grid-template-columns: 80% 20%;
@@ -22,7 +22,6 @@
 
 .detailDate {
     grid-area: date;
-    color: #666666;
 }
 .cvDate {
     font-family: "UniversLight";

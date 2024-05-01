@@ -5,7 +5,7 @@
 .cvSkills {
     grid-area: skill;
     overflow: hidden;
-    border-top: solid #d0d0d0 5px;
+    border-top: solid 5px;
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-areas: "sk pr";

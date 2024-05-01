@@ -1,6 +1,6 @@
 .cvEducation {
     grid-area: education;
-    border-top: solid #d0d0d0 5px;
+    border-top: solid 5px;
     display: grid;
     /* grid-template-rows: 20% 18% 60% ; */
     grid-auto-rows: max-content;
@@ -29,7 +29,7 @@
 .detailDate h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    color: #d0d0d0;
+    /* color: #d0d0d0; */
 }
 
 .edDegree {

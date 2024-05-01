@@ -73,9 +73,9 @@
     margin: 100px 20px;
     padding: 60px 50px; 
 
-    color: #d0d0d0;
-    background-color: #262626;
-    border: solid 2px #666666;
+    color: var(--icon-dark);
+    background-color: var(--page-dark);
+    border: solid 2px var(--border-dark);
     border-radius: 5px;
     
     box-sizing: border-box;
@@ -94,24 +94,32 @@
 
 
 
+h2, h3, button {
+    color: var(--title-dark);
+}
+
+h4, h5, li {
+    color: var(--text-dark);
+}
+
 h2 {
     font-family: "UniversBody";
     font-size: 28px;
     font-weight: 600;
-    color: #d0d0d0;
+    /* color: #d0d0d0; */
 }
 h3 {
     text-transform: uppercase;
     font-family: "UniversBody";
     font-size: 16px;
     font-weight: 200;
-    color: #d0d0d0;
+    /* color: #d0d0d0; */
 }
 h4, li {
     font-family: "UniversBody";
     font-size: medium;
     letter-spacing: 0.05rem;
-    color: rgba(215, 215, 215, 0.6);
+    /* color: rgba(215, 215, 215, 0.6); */
     font-weight: 200;
 }
 
@@ -119,7 +127,7 @@ h5 {
     font-family: "UniversBody";
     font-weight: 200;
     letter-spacing: 0.05rem;
-    color: rgba(215, 215, 215, 0.6);
+    /* color: rgba(215, 215, 215, 0.6); */
     
 }
 
@@ -135,39 +143,33 @@ ul {
 }
 button {
     position: absolute;
-    bottom: 40px;
-    right: 0;
+    top: 2rem;
+    right: 2rem;
     padding: 5px 10px;
     width: 88px;
 
     font-size: 24px;
-    color: #d0d0d0;
+    /* color: #d0d0d0; */
 
     border: none;
     border-radius: 3px 0 0 3px;
-    border-left: solid 2px #666666;
-    border-bottom: solid 2px #666666;
-    border-top: solid 2px #666666;
+    border-left: solid 2px var(--border-dark);
+    border-bottom: solid 2px var(--border-dark);
+    border-top: solid 2px var(--border-dark);
     
-    background-color: #262626;
+    background-color: var(--page-dark);
 }
 
-.cvHeader:hover,
-.cvContact:hover,
-.cvExperience:hover,
-.cvObjective:hover,
-.cvEducation:hover,
-.cvLingo:hover,
-.cvSkills:hover {
-    background-color: rgba(102, 102, 102, 0.08);
-    border-top: solid 10px;
+section:hover {
+    background-color: var(--background-section);
+    border-top: solid 10px var(--title-dark);
     
 }
 
 .cvContact:hover,
 .cvObjective:hover,
 .cvLingo:hover {
-    box-shadow: rgba(0, 0, 0, .4) -5px -5px 150px 3px;
+    box-shadow: var(--shadow-dark) -5px -5px 150px 3px;
     transform: translate3d(0, 2px, 5px);
     padding: 10px;
 }
@@ -175,12 +177,12 @@ button {
 .cvSkills:hover,
 .cvExperience:hover,
 .cvEducation:hover {
-    box-shadow: rgba(0, 0, 0, .4) 5px 5px 200px 5px;
+    box-shadow: var(--shadow-dark) 5px 5px 200px 5px;
     transform: translate3d(4px, 2px, 0);
     padding: 10px;
 }
 .cvHeader:hover {
-    box-shadow: rgba(0, 0, 0, .4) 5px 5px 200px 40px;
+    box-shadow: var(--shadow-dark) 5px 5px 200px 40px;
     transform: translate3d(4px, 2px, 0);
     border-radius: 0 0 10px 10px;
     padding: 5px;
@@ -189,12 +191,6 @@ button {
     margin-right: 30px;
 }
 
-.cvSkills,
-.cvHeader,
-.cvContact,
-.cvExperience,
-.cvObjective,
-.cvEducation,
-.cvLingo {
+section {
     transition: 0.3s ease-in-out;
 }
