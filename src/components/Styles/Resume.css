@@ -29,7 +29,11 @@
     }
 
     .cvExperience {
-        height: max-content;
+
+        grid-template-areas: "title date"
+        "detail detail"
+        "description description"
+        !important;
     }
 
     .resume {
@@ -63,6 +67,14 @@
         grid-template-columns: none !important;
         grid-template-areas: "sk"
             "pr" !important;
+    }
+
+    .cvEducation {
+        grid-template-columns: 70% 30% !important;
+        grid-template-areas: "title date"
+        "detail detail"
+        "description description"
+        !important;
     }
 }
 
@@ -141,6 +153,7 @@ ul {
     padding: 8px;
     list-style-type: none;
 }
+/* 
 button {
     position: absolute;
     top: 2rem;
@@ -149,7 +162,6 @@ button {
     width: 88px;
 
     font-size: 24px;
-    /* color: #d0d0d0; */
 
     border: none;
     border-radius: 3px 0 0 3px;
@@ -158,7 +170,8 @@ button {
     border-top: solid 2px var(--border-dark);
     
     background-color: var(--page-dark);
-}
+} 
+*/
 
 section:hover {
     background-color: var(--background-section);
@@ -193,4 +206,46 @@ section:hover {
 
 section {
     transition: 0.3s ease-in-out;
+}
+
+.pt-Btn, .en-Btn {
+    background: none;
+    border: black 1px solid;
+    color: var(--icon-dark);
+    
+}
+
+.pt-Btn {
+    border: none;
+    border-right: 1px solid;
+    
+}
+.en-Btn {
+    border: none;
+    border-left: 1px solid;
+
+}
+
+.lingo  {
+    width: fit-content;
+    position: absolute;
+    transition: all 1500ms ease;
+    top: 1rem;
+    right: 1rem;
+
+}
+
+.pt-Btn:active, .en-Btn:active {
+    color: var(--background-section);
+}
+
+
+
+.pt-Btn:hover, .en-Btn:hover {
+    color: var(--title-dark);
+    cursor: pointer;
+}
+
+.active {
+    font-weight: 700;
 }

@@ -42,3 +42,6 @@ a:hover {
     font-style: italic;
     box-shadow: var(--background-dark) 50px 2rem 80px 16px;
 }
+.flexDescription {
+    display: flex;
+}

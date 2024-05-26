@@ -2,7 +2,6 @@
     grid-area: education;
     border-top: solid 5px;
     display: grid;
-    /* grid-template-rows: 20% 18% 60% ; */
     grid-auto-rows: max-content;
     grid-template-columns: 80% 20%;
     grid-template-areas: "title title"

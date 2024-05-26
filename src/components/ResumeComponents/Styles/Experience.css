@@ -2,14 +2,14 @@
     grid-area: experience;
     border-top: solid 5px var(--title-dark);
     display: grid;
-    grid-template-rows: 18% 12% 70% ;
+    grid-template-rows: max-content ;
     grid-template-columns: 80% 20%;
     grid-template-areas: "title title"
         "detail date"
         "description description"
         ;
     padding: 10px 0;
-    gap: 5px 0;
+    gap: 10px 0;
 }
 
 .expTitle {
@@ -22,6 +22,7 @@
 
 .detailDate {
     grid-area: date;
+    justify-self: flex-end;
 }
 .cvDate {
     font-family: "UniversLight";

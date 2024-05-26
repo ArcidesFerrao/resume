@@ -30,7 +30,7 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all" 
+      "not op_mini all"
     ],
     "development": [
       "last 1 chrome version",
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/react": "^4.1.1",
     "gh-pages": "^6.1.1"
   }
 }

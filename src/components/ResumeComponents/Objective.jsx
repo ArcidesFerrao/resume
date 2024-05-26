@@ -1,16 +1,16 @@
 import React from 'react'
 import './Styles/Objective.css';
 
-export default function Objective() {
+export default function Objective(props) {
 
 
   return (
     <section className="cvObjective">
         <div className="objTitle">
-            <h2>Objective</h2>
+            <h2>{props.dados.title}</h2>
         </div>
         <div className="objtDescription">
-            <h4>Work with a start up that aims to grow bigger over time to improve my skills and abilities.</h4>
+            <h4>{props.dados.description}</h4>
         </div>
     </section>
   )
