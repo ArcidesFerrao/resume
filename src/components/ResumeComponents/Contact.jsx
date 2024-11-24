@@ -32,8 +32,8 @@ export default function Contact(props) {
               </h4>
             </div>
             <div className="cont-item">
-            <Icon icon="line-md:person-filled" width="14px" height="14px" />
-            <h4>
+            <Icon icon="line-md:person-filled" width="12px" height="12px" />
+            <h4 className='portfolio-cont'>
               <a href="https://portfolio-arcidesferraos-projects.vercel.app/" target='_blank' rel="noreferrer" title='Check out my portfolio...' >
               {props.dados.portfolio}
               </a>
