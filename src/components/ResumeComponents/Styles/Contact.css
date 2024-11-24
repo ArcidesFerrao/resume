@@ -1,47 +1,53 @@
 .cvContact {
-    grid-area: contact;
+  grid-area: contact;
 
-    padding: 10px 0;
-    border-top: solid 5px;
-    margin-right: 25px;
+  padding: 10px 0;
+  border-top: solid 5px;
+  margin-right: 25px;
+  /* gap: 10px; */
+  background: none;
 
-    background: none;
-
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 70%;
-    grid-template-areas: "con"
-        "det";
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 70%;
+  grid-template-areas:
+    "con"
+    "det";
 }
 
 .conTitle {
-    grid-area: con;
+  grid-area: con;
 }
 
 .contDescription {
-    grid-area: det;
+  grid-area: det;
+  display: flex;
+  flex-direction: column;
 }
 
 .contDescription h4 {
-    padding-bottom: 4px;
-    font-size: 14px;
+  font-size: 14px;
 }
 
 a {
-    text-emphasis: none;
-    text-decoration: none;
-    font-style: normal;
-    font-family: "UniversBody";
-    color: var(--text-dark);
+  text-emphasis: none;
+  text-decoration: none;
+  font-style: normal;
+  font-family: "UniversBody";
+  color: var(--text-dark);
 
-    transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
 }
 
 a:hover {
-    color: var(--link-color);
-    font-style: italic;
-    box-shadow: var(--background-dark) 50px 2rem 80px 16px;
+  color: var(--link-color);
+  font-style: italic;
+  box-shadow: var(--background-dark) 50px 2rem 80px 16px;
 }
-.flexDescription {
-    display: flex;
+.flexDescription,
+.cont-item {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding-bottom: 4px;
 }

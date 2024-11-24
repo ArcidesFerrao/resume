@@ -24,7 +24,7 @@ export default function Resume() {
     "contact": {
       "title": "Contacto",
       "description": "Maputo, Moçambique",
-      "portfolio": "Portfolio",
+      "portfolio": "Portfolio - Desenvolvedor Frontend",
     },
     "experience": {
       "title": "Experiencia",
@@ -63,7 +63,7 @@ export default function Resume() {
     "contact": {
       "title": "Contact",
       "description": "Maputo, Mozambique",
-      "portfolio": "Check my Portfolio",
+      "portfolio": "Portfolio - Frontend Developer",
 
     },
     "experience": {
