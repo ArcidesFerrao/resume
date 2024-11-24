@@ -1,80 +1,66 @@
 :root {
-    --show-detail: flex;
-    --hide-detail: none;
-}
-.cvSkills {
-    grid-area: skill;
-    overflow: hidden;
-    border-top: solid 5px;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-areas: "sk pr";
-    padding: 10px 0;
-    gap: 5px 0;
+  --show-detail: flex;
+  --hide-detail: none;
 }
 
 .cvSk {
-    grid-area: sk;
-    transition: all 1s ease;
+  overflow: hidden;
+  grid-area: skill;
+  border-top: solid 5px;
 
-    display: grid;
-    grid-template-rows: 20% 70%;
-    grid-template-areas: "skT"
-     "skL";
+  /* transition: all 1s ease; */
 
-
+  gap: 5px 0;
+  padding: 5px 0;
+  display: grid;
+  grid-template-rows: 20% 70%;
+  grid-template-areas:
+    "skT"
+    "skL";
 }
 
 .skList {
-    grid-area: skL;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    
-    display: grid;
+  grid-area: skL;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 33% 33% 33%;
+  display: grid;
 
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
 }
 
 .sk {
-    padding: 5px 0;
-    cursor: pointer;
-
+  padding: 5px 0;
+  cursor: pointer;
 }
 .sk img {
-    height: 45px;
-    background: none;
-    
-    filter: grayscale(80%);
+  height: 32px;
+  /* background: none; */
+  filter: grayscale(20%);
 }
 
 .sk span {
-    font-size: 60px;
+  font-size: 60px;
 }
 
-
+/* 
 .cvDetailSkills {
-    grid-area: pr;
-    display: none;
-    flex-direction: column;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
+  grid-area: pr;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
 .cvDetailSkills h5 {
-    font-size: x-small;
-    /* display: v; */
+  font-size: x-small;
 }
-/* 
-.Js:hover \ .cvDetailSkills {
-    display: block;
-} */
-
 
 
 .cvSk:hover + .cvDetailSkills {
-    display: flex;
-}
+  display: flex;
+} */

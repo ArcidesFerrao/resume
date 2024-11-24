@@ -24,6 +24,7 @@ export default function Resume() {
     "contact": {
       "title": "Contacto",
       "description": "Maputo, Moçambique",
+      "portfolio": "Portfolio",
     },
     "experience": {
       "title": "Experiencia",
@@ -62,6 +63,8 @@ export default function Resume() {
     "contact": {
       "title": "Contact",
       "description": "Maputo, Mozambique",
+      "portfolio": "Check my Portfolio",
+
     },
     "experience": {
       "title": "Experience",
@@ -76,7 +79,7 @@ export default function Resume() {
     },
     "objective": {
       "title": "Objective",
-      "description": "Work with a start up that aims to grow bigger over time to improve my skills and abilities to bring flexible solutions to day today problems.",
+      "description": "Work with a start up that aims to grow bigger over time to improve my skills and abilities bringing flexible solutions to day today problems.",
     },
     "education": {
       "title": "Education",

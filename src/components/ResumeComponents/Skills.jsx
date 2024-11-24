@@ -1,14 +1,13 @@
 import React from 'react';
 import './Styles/Skills.css';
+import { Icon } from '@iconify/react/dist/iconify.js';
 import pythonIcon from './Styles/icons/python-icon.png';
-import reactIcon from './Styles/icons/react-icon.png';
-import gitIcon from './Styles/icons/github-512.webp';
 
 export default function Skills() {
   return (
-    <section className='cvSkills'>
-        <div className="cvSk">
-            <h2>Skills</h2>
+    // <section className='cvSkills'>
+        <section className="cvSk">
+            <h2>Tech Stack</h2>
             <div className="skList">
                 <div className="sk Html">
                     <span className="material-symbols-outlined">
@@ -27,24 +26,36 @@ export default function Skills() {
                 </div>
 
                 <div className="sk React">
-                    <img src={reactIcon} alt="react" title="react" />
+                    <Icon icon="carbon:logo-react" width="32px" height="32px" />
                 </div>
                 <div className="sk GitHub">
-                    <img src={gitIcon} alt="gitHub" title="gitHub" />
+                    <Icon icon="cib:next-js"  width="32px" height="32px" />
                 </div>
                 <div className="sk Python">
                     <img src={pythonIcon} alt="Python" title="Python" />
                 </div>
+                <div className="sk Prisma">
+                    <Icon icon="devicon:prisma" width="32px" height="32px" />
+                </div>
+                <div className="sk Vercel">
+                    <Icon icon="vscode-icons:file-type-vercel" width="32px" height="32px" />
+                </div>
+                <div className="sk Vercel">
+                    <Icon icon="devicon:sanity" width="32px" height="32px" />
+                </div>
+                <div className="sk Vercel">
+                    <Icon icon="devicon:postgresql" width="32px" height="32px" />
+                </div>
             </div>
-        </div>
 
+        {/* 
         <div className="cvDetailSkills">
-            {/* <div className="prList"> */}
-                <h5>Proficiency in frontend technologies (html, css, javascript)</h5>
-                <h5>Familiarity with responsive design and user experience principles</h5>
-
-            {/* </div> */}
-        </div>
-    </section>
+        <h5>Proficiency in frontend technologies (html, css, javascript)</h5>
+        <h5>Familiarity with responsive design and user experience principles</h5>
+        </div> 
+        
+        // </section>
+        */}
+        </section>
   )
 }

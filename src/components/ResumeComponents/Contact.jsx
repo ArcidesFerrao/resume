@@ -21,6 +21,11 @@ export default function Contact(props) {
             <h4>
               <a href="https://github.com/ArcidesFerrao" target='_blank' title='Check my gitHub repositories...'>github.com/ArcidesFerrao</a>
             </h4>
+            <h4>
+              <a href="https://portfolio-arcidesferraos-projects.vercel.app/" target='_blank' title='Check my portfolio...' >
+              {props.dados.portfolio} - Frontend Developer
+              </a>
+            </h4>
         </div>
     </section>
   )
